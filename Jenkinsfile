@@ -6,7 +6,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/lehmanjb'                                                                    //<------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/JudeLehman/225-lab3-5.git'                                          //<------change this
-        KUBECONFIG = credentials('lehmanjb')                                                         //<------change this
+        KUBECONFIG = credentials('lehmanjb-test-credentials')                                                         //<------change this
     }
 
     stages {
